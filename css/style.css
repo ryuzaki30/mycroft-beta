@@ -965,23 +965,24 @@ img {
   }
 
   .pimg1{
-      background-image: url("../images/image6.jpg");
+      background-image: url("../images/image5copy.jpg");
       background-size: cover;
 
       background-repeat: no-repeat;
-      min-height: 600px;
+      min-height: 550px;
   }
 
   .pimg2{
-      background-image: url("../images/image2.jpg");
-      min-height: 600px;
+      background-image: url("../images/pimgblue.jpg");
+      min-height: 550px;
   }
 
 
   .pimg3{
-      background-image: url("../images/image3.jpg");
-      min-height: 600px;
+      background-image: url("../images/image4copy.jpg");
+      min-height: 550px;
   }
+
 
   .section{
       text-align: center;
