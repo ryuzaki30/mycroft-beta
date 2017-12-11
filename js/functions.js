@@ -31,7 +31,8 @@ $(window).scroll(function(){
 
       setTimeout(function(){
         $('.events-pics figure').eq(i).addClass('is-showing');
-      }, (700 * (Math.exp(i * 0.14))) - 700);
+    }, 72 *(i+1));
+      /*(700 * (Math.exp(i * 0.14))) - 700);*/
     });
 
   }

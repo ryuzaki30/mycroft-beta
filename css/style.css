@@ -5,6 +5,9 @@
  * 2. Prevent iOS text size adjust after orientation change, without disabling
  *    user zoom.
  */
+
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:300');
+
 html {
   font-family: sans-serif;
   /* 1 */
@@ -965,7 +968,7 @@ img {
   }
 
   .pimg1{
-      background-image: url("../images/image5copy.jpg");
+      background-image: url("../images/matte.jpg");
       background-size: cover;
 
       background-repeat: no-repeat;
@@ -973,7 +976,7 @@ img {
   }
 
   .pimg2{
-      background-image: url("../images/pimgblue.jpg");
+      background-image: url("../images/image5copy.jpg");
       min-height: 550px;
   }
 
@@ -1016,17 +1019,25 @@ img {
 /* events section text*/
 .ptext{
     position: absolute;
-    top:50%;
+    top:15%;
+
     width: 100%;
-    text-align:left;
+    text-align:center;
     color: #fff;
     font-size: 50px;
     letter-spacing: 8px;
-    margin-top: -20px;
-    margin-left: 300px;
+
+    margin-left: 0px;
     margin-top: 15px;
     background-attachment: fixed;
+
+
+
 }
+
+
+
+
 
 
 /*============================================================*/
@@ -1066,65 +1077,7 @@ img {
     font-size: 11px;
     transition: all 0.3s ease-in-out; }
 
-.large-window {
-  height: 640px;
-  background-image: url(../images/model2.jpg);
-  background-position: center 0px;
-  background-repeat: repeat-y;
-  background-attachment: fixed;
-  margin-top: 100px;
-  margin-bottom: 100px;
-  border-radius: 50%;
-  position: relative; }
-  .large-window .window-tint {
-    background-color: rgba(0, 0, 0, 0.5);
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    opacity: 0; }
-  .large-window .promo-text {
-    color: white;
-    font-weight: 100;
-    font-size: 50px;
-    line-height: 1.2; }
-    .large-window .promo-text strong {
-      display: block;
-      font-size: 30px; }
-    .large-window .promo-text span {
-      font-weight: 300;
-      font-size: 18px;
-      font-style: italic;
-      color: rgba(255, 255, 255, 0.6); }
-    .large-window .promo-text .window-cta {
-      font-size: 20px;
-      text-decoration: none;
-      color: white;
-      border: 1px solid white;
-      padding: 10px 20px;
-      transition: all 0.3s ease-in-out; }
-      .large-window .promo-text .window-cta:hover {
-        background: white;
-        color: black; }
 
-.blog-posts {
-  margin-top: 100px; }
-  .blog-posts .post {
-    border: 1px solid #e1e1e1;
-    padding: 20px 20px 0;
-    background: white;
-    position: relative; }
-  .blog-posts .post-1 {
-    transform: translate(100px, 20px); }
-  .blog-posts .post-2 {
-    z-index: 2; }
-  .blog-posts .post-3 {
-    transform: translate(-100px, 20px); }
 
 footer {
   background: black;
@@ -1141,3 +1094,43 @@ footer {
     color: white; }
   footer input {
     color: #666; }
+
+
+.eheading {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    padding: 0, 20px;
+    font-size: 6em;
+    text-shadow: 0 0 20px #39ff14;
+
+
+
+
+}
+
+
+h1.neonheading {
+    color: #fff;
+    font-family: 'Josefin Sans', sans-serif;
+    margin-top: 70px;
+    font-size: 50px;
+    font-weight: 50px;
+    text-align: center;
+
+}
+
+h1.neonheading.second {
+    text-shadow: 0px 0px 10px #9D00ff,
+    0px 0px 20px #9D00ff,
+    0px 0px 30px #9D00ff,
+    0px 0px 40px #9D00ff,
+    0px 0px 50px #9D00ff,
+    0px 0px 60px #9D00ff;
+
+}
